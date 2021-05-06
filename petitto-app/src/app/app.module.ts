@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { LoginComponent } from './login/login.component';
 import { DoarComponent } from './doar/doar.component';
+import { PetsComponent } from './pets/pets.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CadastroComponent,
     LoginComponent,
-    DoarComponent
+    DoarComponent,
+    PetsComponent
   ],
   imports: [
     BrowserModule,
