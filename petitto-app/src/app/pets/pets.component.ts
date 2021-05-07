@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PetsComponent implements OnInit {
 
-  title = 'Pets para doações'
+  title = 'Pets para adoações'
   public pets = [
     { nome: 'Petitto' },
     { nome: 'Gatuno' },
