@@ -7,6 +7,7 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { LoginComponent } from './login/login.component';
 import { DoarComponent } from './doar/doar.component';
 import { PetsComponent } from './pets/pets.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PetsComponent } from './pets/pets.component';
     CadastroComponent,
     LoginComponent,
     DoarComponent,
-    PetsComponent
+    PetsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
