@@ -9,11 +9,11 @@ export class PetsComponent implements OnInit {
 
   title = 'Pets para adoações'
   public pets = [
-    { nome: 'Petitto' },
-    { nome: 'Gatuno' },
-    { nome: 'Fiona' },
-    { nome: 'Matuto' },
-    { nome: 'Rex' },
+    { id: 1, nome: 'Petitto', doador: 'João Paulo',  descricao: 'Muito Carinhoso' , especie:"gato",      zap:"35214587"},
+    { id: 2, nome: 'Gatuno',  doador: 'Ludmylla',    descricao: 'Muito Carinhoso',  especie:"cachorro",  zap:"36587874" },
+    { id: 3, nome: 'Fiona',   doador: 'Samuel',      descricao: 'Muito Carinhoso',  especie:"cachorro",  zap:"65854578" },
+    { id: 4, nome: 'Matuto',  doador: 'Diego',       descricao: 'Muito Carinhoso',  especie:"gato",      zap:"23564789" },
+    { id: 5, nome: 'Rex',     doador: 'Ingryd',      descricao: 'Muito Carinhoso',  especie:"cachorro",  zap:"85458567" }
   ];
   constructor() { }
 
