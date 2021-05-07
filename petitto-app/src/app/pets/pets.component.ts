@@ -9,12 +9,12 @@ export class PetsComponent implements OnInit {
 
   title = 'Pets para doações'
   public pets = [
-    'Petitto',
-    'Gatuno',
-    'Fiona',
-    'Matuto',
-    'Rex',
-  ];  
+    { nome: 'Petitto' },
+    { nome: 'Gatuno' },
+    { nome: 'Fiona' },
+    { nome: 'Matuto' },
+    { nome: 'Rex' },
+  ];
   constructor() { }
 
   ngOnInit(): void {
