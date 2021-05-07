@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DoarComponent implements OnInit {
 
+  titleDoar = 'Doe um PETITTO!'
+
   constructor() { }
 
   ngOnInit(): void {
