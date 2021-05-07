@@ -6,6 +6,7 @@ import { LoginComponent } from './login/login.component';
 import { PetsComponent } from './pets/pets.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: '', pathMatch:'full'},
   {path:'pets',component:PetsComponent},
   {path:'cadastro',component:CadastroComponent},
   {path:'login',component:LoginComponent},
