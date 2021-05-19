@@ -1,36 +1,36 @@
 <div class="container-center">
     <h1>Registre Seu PET!</h1>
-    <form>
+    <form (ngSubmit)="submit()">
         <div class="form-group">
             <label for="doador">Doador</label>
-            <input type="text" name="doador" class="form-control"><br>
+            <input type="text" name="doador" class="form-control" ngModel required><br>
         </div>
         <pre></pre>
         <div class="form-group">
             <label for="nomePet">Nome do Pet</label>
-            <input type="text" name="nomePet" class="form-control"><br>
+            <input type="text" name="nomePet" class="form-control" ngModel required><br>
         </div>
         <pre></pre>
         <div class="form-group">
             <label for="especie">Espécie</label>
-            <input type="text" name="especie" class="form-control"><br>
+            <input type="text" name="especie" class="form-control" ngModel  required><br>
         </div>
         <pre></pre>
         <div class="form-group">
             <label for="whatsapp">Whatsapp</label>
-            <input type="number" name="whatsapp" class="form-control"><br>    
+            <input type="number" name="whatsapp" class="form-control" ngModel  required><br>    
         </div>
         <pre></pre>
         <div class="form-group">
             <label for="descricao">Descrição</label>
-            <textarea type="text" name="descricao" class="form-control" rows="6" cols="50" ></textarea>
+            <textarea type="text" name="descricao" class="form-control" rows="6" cols="50" ngModel  required></textarea>
         </div>
         <pre></pre>
         <div class="form-group">
             <label for="file">Imagem</label>
-            <input type="file" name="file" class="form-control"><br>
+            <input type="file" name="file" class="form-control" ngModel  required><br>
         </div>
         <pre></pre>
-        <button class="btn btn-primary" type="submit">Enviar</button>
+        <button class="btn btn-primary" type="submit" ngModel>Enviar</button>
     </form>
 </div>
