@@ -1,35 +1,36 @@
 <h1>{{title}}</h1>
 <br>
 <div class="container">
-    <div class="row">
-      <div class="col-12">
-          <table class="table table-image">
-            <thead>
-              <tr>
-                <th scope="col">ID</th>
-                <th scope="col">Imagem</th>
-                <th scope="col">Descrição</th>
-                <th scope="col">Doador</th>
-                <th scope="col">Nome</th>
-                <th scope="col">Espécie</th>
-                <th scope="col">Whatsapp</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr *ngFor=" let pets of pets">
-                <th scope="row">{{pets.id}}</th>
-                <td class="w-25">
-                    <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-3.jpg" class="img-fluid img-thumbnail" alt="Sheep">
-                </td>
-                <td>{{pets.descricao}}</td>
-                <td>{{pets.doador}}</td>   
-                <td>{{pets.nome}}</td>
-                <td>{{pets.especie}}</td>
-                <td>{{pets.zap}}</td>
-              </tr>
-              <tr>
-            </tbody>
-          </table>   
-      </div>
+  <div class="row">
+    <div class="col-12">
+      <table class="table table-image">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Imagem</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Doador</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Espécie</th>
+            <th scope="col">Whatsapp</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor=" let pets of pets">
+            <th scope="row">{{pets.id}}</th>
+            <td class="w-25">
+              <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-3.jpg"
+                class="img-fluid img-thumbnail" alt="Sheep">
+            </td>
+            <td>{{pets.descricao}}</td>
+            <td>{{pets.doador}}</td>
+            <td>{{pets.nome}}</td>
+            <td>{{pets.especie}}</td>
+            <td>{{pets.zap}}</td>
+          </tr>
+          <tr>
+        </tbody>
+      </table>
     </div>
   </div>
+</div>
