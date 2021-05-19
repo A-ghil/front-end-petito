@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PetsComponent implements OnInit {
 
-  title = 'Pets para adoações'
+  title = 'Pets'
   public pets = [
     { id: 1, nome: 'Petitto', doador: 'João Paulo',  descricao: 'Muito Carinhoso' , especie:"gato",      zap:"35214587"},
     { id: 2, nome: 'Gatuno',  doador: 'Ludmylla',    descricao: 'Muito Carinhoso',  especie:"cachorro",  zap:"36587874" },
